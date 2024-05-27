@@ -1,0 +1,42 @@
+JAVA KEY POINTS
+
+
+Patience is the key:
+Learning Java will be overwhelming because of the volume of material about the language but be patient, 
+learn at your own pace, don’t rush. Mastering Java is a process that takes time. 
+And remember even the best coders would have started at some point. So it’s not a big deal, 
+just do as much as you can and keep going. Give it your time. Patience is the key to success.
+
+******************************************************************************************************************
+
+                                                -:BASIC ELEMENTS OF JAVA:-
+
+JDK: JAVA develeopment kit, it consists of tools and kits that do the 
+        **debugging and compiling part**
+
+JRE: Java Runtime Environment, which internally uses JVM(java virtual machine):which does the execution part.
+        JRE (Java Runtime Environment) is an installation package that **provides an environment to only run(not develop)the java program(or application)on your machine.**
+
+        JRE is only used by those who only want to run Java programs that are end-users of your system.
+
+JVM (Java Virtual Machine): is a very important part of both JDK and JRE because it is contained or inbuilt in both. 
+        Whatever Java program you run using JRE or JDK goes into JVM and **JVM is responsible for executing the java program line by line,**
+        hence it is also known as an interpreter.
+
+        // Java applications are called WORA (Write Once Run Anywhere).
+        At compile time, java file is compiled by Java Compiler (It
+        does not interact with OS) and converts the java code into
+        bytecode.    
+
+JAVAC: its the compiler(a part of JDK). When we create a java file (eg.first.java) javac creates a class file called first.class.
+       Then 'Java first' is executed by JVM(belongs to JRE).
+
+{JIT Compiler(Just In Time Compiler): JVM compiles complete byte code to machine code.	JIT compiles only the reusable byte code to machine code.
+                                      In order to improve performance, JIT compilers interact with the Java Virtual Machine (JVM) at run time and
+                                      compile suitable bytecode sequences into native machine code.}
+
+
+
+                                                -:RUNNING JAVA FILE:-
+A static method, means that it can be accessed without creating an object of the class, JUST the JVM does it.
+                             
